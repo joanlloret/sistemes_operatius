@@ -29,7 +29,7 @@
         <tr><th>#</th><th>Apartat</th></tr>
       </thead>
       <tbody>
-        <tr><td>1</td><td><a href="#apartat1">Instal·lació del sistema operatiu</a></td></tr>
+        <tr><td>1</td><td><a href="#apartat1">Pinning Packet</a></td></tr>
         <tr><td>2</td><td><a href="#apartat2">Punts de restauració</a></td></tr>
         <tr><td>3</td><td><a href="#apartat3">Particions</a></td></tr>
         <tr><td>4</td><td><a href="#apartat4">Virtualització</a></td></tr>
@@ -37,21 +37,26 @@
     </table>
 
     <article class="apartat" id="apartat1">
-      <h2>1. Instal·lació del sistema operatiu</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Un cop arrencat
-         el suport d'instal·lació, cal seguir l'assistent i triar les opcions de
-         particionat abans de continuar. <strong>Aquest pas és irreversible</strong>,
-         així que revisa bé el disc de destinació.</p>
-      <ul>
-        <li>Arrencar des del USB o la imatge ISO.</li>
-        <li>Triar l'idioma i la distribució de teclat.</li>
-        <li>Configurar el particionat del disc.</li>
-        <li>Esperar que finalitzi la còpia d'arxius i reiniciar.</li>
-      </ul>
-      <img src="../img/exemple.svg" alt="Exemple de captura de pantalla de l'assistent d'instal·lació">
-      <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-         Un cop reiniciat el sistema, comprova que arrenca correctament i que
-         reconeix tot el maquinari abans de continuar amb el següent apartat.</p>
+      <h2>1. Pinning Packet</h2>
+      <p>El primer que fem és aquesta comanda per veure el candidat que tenim actualment al servidor redis.
+
+<img width="806" height="273" alt="Captura de pantalla de 2026-10-15 10-10-11" src="https://github.com/user-attachments/assets/68bcf689-bbab-4436-96fe-8a1c0d43a87c" />
+
+El que farem serà prioritzar la versió a 1build2 i afegirem un pin prioritari.
+
+<img width="567" height="100" alt="Captura de pantalla de 2026-10-15 10-15-56" src="https://github.com/user-attachments/assets/8a0fd7fc-2a2f-4f65-a8ff-a626a181d1d3" />
+
+Ara tornarem a executar la comanda anterior i com veiem hem prioritzat el candidat que voliem i ha canviat.
+
+<img width="809" height="277" alt="Captura de pantalla de 2026-10-15 10-16-14" src="https://github.com/user-attachments/assets/3324267d-35d2-4132-bcb0-9e3b41a62725" />
+
+A continuació instal·larem el servidor redis juntament amb les seves eines necessaries.
+
+<img width="796" height="318" alt="Captura de pantalla de 2026-10-15 10-16-50" src="https://github.com/user-attachments/assets/b281716b-12c5-4faa-a64d-127220b76eaf" />
+
+I com veiem hem instal·lat la mateixa versió a la que hem prioritzat la candidatura i com veiem a la captura ens apareix correctament.
+
+<img width="804" height="295" alt="Captura de pantalla de 2026-10-15 10-17-42" src="https://github.com/user-attachments/assets/5bdab67a-c79a-4104-9c76-a6d9e56357d2" /></p>
       <p class="tornar-index"><a href="#index-apartats">↑ Tornar a l'índex</a></p>
     </article>
     <article class="apartat" id="apartat2">
